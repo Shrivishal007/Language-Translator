@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌐 Language Translator
 
 A web-based language translation tool that enables users to translate text between **English**, **Tamil**,  **Malayalam**, **Telugu**, **Kannada** and **Hindi** using a simple and intuitive user interface. This project leverages a **Python Flask** backend with the **Google Translate API** to provide translations. 🌍✨
