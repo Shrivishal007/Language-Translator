@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Language Translator
 
 A web-based language translation tool that enables users to translate text between **English**, **Tamil**,  **Malayalam**, **Telugu**, **Kannada** and **Hindi** using a simple and intuitive user interface. This project leverages a **Python Flask** backend with the **Google Translate API** to provide translations. 🌍✨
@@ -105,3 +106,6 @@ This project is licensed under the MIT License 📜
 
 - Backend not starting: Ensure all dependencies are installed. Run pip install -r requirements.txt to install missing libraries. ⚠️
 - CORS Issues: If you encounter issues related to cross-origin requests, ensure the Flask-CORS package is correctly installed. 🔄
+=======
+# Language-Translator
+>>>>>>> fc5a1791f85030f24556bd2a0334dac46281b8d4
