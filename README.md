@@ -29,8 +29,8 @@ Make sure you have **Python 3.12.9** or similar versions. You also need `git` to
 
 Clone the repository:
 ```
-git clone https://github.com/Shrivishal007/GIT_Projects.git
-cd GIT_Projects/Language_Translator
+git clone https://github.com/Shrivishal007/Language-Translator.git
+cd Language-Translator
 ```
 
 Install the required dependencies:
