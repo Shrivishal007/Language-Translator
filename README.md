@@ -39,11 +39,11 @@ pip install -r requirements.txt
 ```
 ### For newer versions of googletrans(Alter translate.py):
 Add line 1:
-```
+```python
 import asyncio
 ```
 Change lines 22 to 24:
-```
+```python
 async def dotranslate():
   translator = Translator()
   translated = await translator.translate(text, src=src, dest=dest)
