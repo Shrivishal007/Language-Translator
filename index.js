@@ -4,12 +4,17 @@ function doTranslate()
     const outputLanguage = document.getElementById("toLanguage").value;
     const inputText = document.getElementById("fromLanguageText").value;
 
+    if (!navigator.onLine) {
+        alert("You are offline. Please connect to the internet.");
+        return;
+    }
+
     if (!inputLanguage || !outputLanguage || inputText.trim() === "") {
         alert("Please fill in all fields!");
         return;
     }
 
-    fetch('http://127.0.0.1:5000/translate', 
+    fetch('https://language-translator-backend-9f1a.onrender.com/translate', 
     {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},

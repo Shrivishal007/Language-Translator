@@ -19,7 +19,7 @@ A web-based language translation tool that enables users to translate text betwe
 ### Backend:
 - **Python 3.12.9**: Backend language. 🐍
 - **Flask**: Lightweight web framework for the backend. 🔥
-- **Googletrans 4.0.0**: A Python library that uses Google Translate API for translation functionality. 🌐
+- **Deep Translator**: A Python library that provides access to multiple translation services such as Google Translate. 🌐
 - **Flask-CORS**: For handling Cross-Origin Resource Sharing (CORS) issues in API requests. 🔄
 
 ## Installation 💾
@@ -36,20 +36,6 @@ cd Language-Translator
 Install the required dependencies:
 ```
 pip install -r requirements.txt
-```
-### For newer versions of googletrans(Alter translate.py):
-Add line 1:
-```python
-import asyncio
-```
-Change lines 22 to 24:
-```python
-async def dotranslate():
-  translator = Translator()
-  translated = await translator.translate(text, src=src, dest=dest)
-  print("Translated:", translated.text)
-  return translated
-translated = asyncio.run(dotranslate())
 ```
 
 ## Running the Backend 🚀
@@ -96,7 +82,7 @@ This project is licensed under the MIT License 📜
 
 ## Acknowledgements 🙏
 
-- Googletrans: The Python library for the Google Translate API. Googletrans on PyPI 🌐
+- Deep Translator: Python library used for translation services 🌐
 - Flask: A lightweight web framework for Python. Flask Documentation 🔥
 - Font Awesome: For the icons used in the UI. Font Awesome 🎨
 - Google Fonts: For the fonts used in the design. Google Fonts ✨
